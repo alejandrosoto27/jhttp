@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_alejandrosoto27_jhttp_1727098001491-pr-trigger-input-set
+  identifier: Build_alejandrosoto27_jhttp_1727098001491prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Lab
+  pipeline:
+    identifier: Build_alejandrosoto27_jhttp_1727098001491
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
