@@ -28,6 +28,12 @@ pipeline:
                       echo "Welcome to Harness CI"
                       mvn -B package --file pom.xml
                   type: Run
+              - step:
+                  name: HelloWorldTemplate
+                  identifier: HelloWorldTemplate
+                  template:
+                    templateRef: Hello_World_Step_Template
+                    versionLabel: v1
           platform:
             os: Linux
             arch: Amd64
