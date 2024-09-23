@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_alejandrosoto27_jhttp_1727098001491-push-trigger-input-set
+  identifier: Build_alejandrosoto27_jhttp_1727098001491pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Lab
+  pipeline:
+    identifier: Build_alejandrosoto27_jhttp_1727098001491
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
